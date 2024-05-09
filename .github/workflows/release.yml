@@ -1,8 +1,8 @@
-name: Release
+name: Release 
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
+      - 'v[0-9]+.[0-9]+.[0-9]+' #Versioning by semantic versioning
 jobs:
   build:
     runs-on: ubuntu-22.04
